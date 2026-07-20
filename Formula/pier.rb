@@ -1,7 +1,7 @@
 class Pier < Formula
   desc "Tmux sidebar dashboard for Claude Code sessions"
   homepage "https://github.com/zkzofn/pier"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   depends_on "tmux"
@@ -9,11 +9,11 @@ class Pier < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/zkzofn/pier/releases/download/v0.3.1/pier_v0.3.1_darwin_arm64.tar.gz"
-      sha256 "0fb94287f6f6f086084a696c02f7f9e0f4580af4745b9aef37280b84d3409efc"
+      url "https://github.com/zkzofn/pier/releases/download/v0.3.2/pier_v0.3.2_darwin_arm64.tar.gz"
+      sha256 "3d63802575a843edb96ed7a6d871823704d7087e9c7d75eae8c5d748e910dc1d"
     else
-      url "https://github.com/zkzofn/pier/releases/download/v0.3.1/pier_v0.3.1_darwin_amd64.tar.gz"
-      sha256 "6f90dd7585c86a969d133abacec477ac0f8cf01fe865d01df0cdc0bc468c279a"
+      url "https://github.com/zkzofn/pier/releases/download/v0.3.2/pier_v0.3.2_darwin_amd64.tar.gz"
+      sha256 "647b7f040c8d861b282b1565dc5d9ea3ed0110bae874bce715936732e8f76b79"
     end
   end
 
